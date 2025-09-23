@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<!-- saved from url=(0082)file:///C:/Users/Guille%20Arroba/OneDrive/Documentos/ProyectosJS/Tareas/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda Guille Arroba</title>
+    <link rel="stylesheet" href="./Agenda Guille Arroba_files/tareas.css">
+</head>
+<body>
+    <div class="contenedor">
+    <h1>📝 Lista de Tareas</h1>
+    <form id="formulario">
+      <input type="text" id="tarea" placeholder="Escribe una tarea..." required="">
+      <input type="datetime-local" id="fecha" required="">
+      <button type="submit">Agregar</button>
+    </form>
+
+    <ul id="lista-tareas"><li data-id="1756114429129" class="">
+    <span><strong>Gym</strong><br><small>lun, 25 ago, 12:30</small></span>
+    <div class="botones">
+      <button onclick="marcarHecha(1756114429129)">✔️</button>
+      <button onclick="eliminarTarea(1756114429129)">🗑️</button>
+    </div>
+  </li></ul>
+  </div>
+  <script src="./Agenda Guille Arroba_files/tarea.js"></script>
+
+</body></html>
